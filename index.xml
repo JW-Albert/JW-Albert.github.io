@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>王老師生命專線</title>
-    <link>https://JW-Albert.github.io/</link>
-    <description>Recent content on 王老師生命專線</description>
+    <title>首頁 on 王老師生命專線</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in 首頁 on 王老師生命專線</description>
     <generator>Hugo -- 0.147.3</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 18 May 2025 10:37:27 +0800</lastBuildDate>
-    <atom:link href="https://JW-Albert.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Apr 2025 19:05:55 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>https://JW-Albert.github.io/posts/hello-world/</link>
-      <pubDate>Sun, 18 May 2025 10:37:27 +0800</pubDate>
-      <guid>https://JW-Albert.github.io/posts/hello-world/</guid>
+      <title>文章</title>
+      <link>http://localhost:1313/posts/</link>
+      <pubDate>Sun, 06 Apr 2025 19:05:55 +0000</pubDate>
+      <guid>http://localhost:1313/posts/</guid>
       <description></description>
     </item>
   </channel>
