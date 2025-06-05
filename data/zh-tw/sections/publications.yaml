@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Publications
+  name: 發表作品
   id: publications
   enable: true
   weight: 6
@@ -10,21 +10,21 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: 全部
   filter: "all"
-- name: "Machine Learning"
+- name: "機器學習"
   filter: "machinelearning"
-- name: "Image Processing"
+- name: "影像處理"
   filter: "image-processing"
-- name: Security
+- name: 安全性
   filter: "security"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: 機器學習範例論文
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
+    name: 2020年 IEEE 區域研討會 (TENSYMP)
+    date: 2020年6月7日
     url: https://example.com
   authors:
   - name: Dr. Madman
@@ -39,12 +39,12 @@ publications:
     summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
     url: https://example.com
   categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+  tags: ["機器學習", "自動駕駛", "電腦視覺"]
 
-- title: An Sample Paper on Image Processing
+- title: 影像處理範例論文
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
+    name: 2020年 IEEE 區域研討會 (TENSYMP)
+    date: 2020年6月7日
     url: https://example.com
   authors:
   - name: Dr. Madman
@@ -59,12 +59,12 @@ publications:
     summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
     url: https://example.com
   categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+  tags: ["影像處理", "電腦視覺"]
 
-- title: An Example Paper on Security
+- title: 安全性範例論文
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
+    name: 2020年 IEEE 區域研討會 (TENSYMP)
+    date: 2020年6月7日
     url: https://example.com
   authors:
   - name: Dr. Madman
@@ -79,4 +79,4 @@ publications:
     summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
     url: https://example.com
   categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+  tags: ["機器學習", "自動駕駛", "機器視覺"]

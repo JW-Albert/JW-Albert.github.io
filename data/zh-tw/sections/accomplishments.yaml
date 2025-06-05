@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Accomplishments
+  name: 成就
   id: accomplishments
   enable: true
   weight: 9
@@ -11,36 +11,36 @@ section:
 
 # Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: Linux 基金會系統管理員
+  timeline: "2018年3月 - 2019年3月"
   organization:
-    name: Linux Foundation
+    name: Linux 基金會
     url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
+  courseOverview: 本課程幫助理解關鍵概念，如網路、儲存、安全性、維護、日誌和監控、應用程式生命週期、故障排除、API 物件原語等。它還幫助培養為終端用戶建立基本使用案例的能力。
   certificateURL: "https://example.com"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: 機器學習
+  timeline: "2020年6月 - 2021年1月"
   organization:
     name: Coursera
     url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
+  courseOverview: "本課程提供機器學習、資料探勘和統計模式識別的廣泛介紹。主題包括：(i) 監督學習（參數/非參數演算法、支援向量機、核心、神經網路）。(ii) 非監督學習（聚類、降維、推薦系統、深度學習）。(iii) 機器學習最佳實踐（偏差/方差理論；機器學習和人工智慧的創新過程）。"
   certificateURL: "https://example.com"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: 系統設計面試精通
+  timeline: "2018年1月 - 2018年9月"
   organization:
     name: educative
     url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
+  courseOverview: 本課程是掌握系統設計面試的完整指南。它由曾在 Google、Facebook、Microsoft 和 Amazon 工作的招聘經理創建。我們精心選擇了一系列不僅在頂尖公司反覆被問到，而且能提供處理任何系統設計問題的全面經驗的問題。
   certificateURL: "https://example.com"
 
-- name: Mastering Multithreading Programming with Go (Golang)
-  timeline: "Nov 2017 - Mar 2018"
+- name: Go (Golang) 多執行緒程式設計精通
+  timeline: "2017年11月 - 2018年3月"
   organization:
     name: Udemy
     url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, multithreading topics.
+  courseOverview: 學習如何創建響應式和高性能的軟體。使用 Golang 開發高度並行和並行的程式。通過更進階的多執行緒主題提升您的 Go 程式設計技能。
   certificateURL: "https://example.com"
  
 

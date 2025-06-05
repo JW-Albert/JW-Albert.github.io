@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: 技能
   id: skills
   enable: true
   weight: 2
@@ -11,15 +11,15 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: 全部
   filter: "all"
-- name: Basic
+- name: 基礎
   filter: "basic"
-- name: Language
+- name: 程式語言
   filter: "language"
-- name: Container
+- name: 容器
   filter: "container"
-- name: Others
+- name: 其他
   filter: "others"
 
 # Your Skills.
@@ -27,45 +27,45 @@ buttons:
 skills:
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "能夠在 Kubernetes 上部署和管理應用程式。有編寫 Kubernetes CRD 控制器的經驗。"
   categories: ["container"]
   url: "https://kubernetes.io/"
 
-- name: Go Development
+- name: Go 開發
   logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "作為專業開發的主要語言。能夠編寫可擴展、可測試和可維護的程式。"
   categories: ["basic", "language"]
   url: "https://golang.org/"
 
-- name: Cloud Computing
+- name: 雲端運算
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "使用過大多數主要雲端平台，如 GCP、AWS、Azure 等。"
   categories: ["others"]
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "將大多數程式編寫為容器化應用。有使用多階段、多架構構建流程的經驗。"
   categories: ["container"]
   url: "https://www.docker.com/"
 
 - name: Prometheus
   logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  summary: "能夠設置和配置 Prometheus 指標。有使用 PromQL、AlertManager 的經驗。也有編寫指標導出器的經驗。"
   categories: ["basic"]
   url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "作為主要作業系統使用。能夠編寫 bash/shell 腳本。"
   categories: ["others"]
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "有基於 git 的開發經驗。主要使用 Github。也有使用 GitLab 的經驗。"
   categories: ["basic"]
   url: "https://git-scm.com/"
 
 - name: C++
   logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  summary: "了解基本的 C/C++ 程式設計。用於競賽程式設計和問題解決。"
   categories: ["basic", "language"]

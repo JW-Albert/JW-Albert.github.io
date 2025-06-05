@@ -1,8 +1,8 @@
 # some information about you
-name: "John Doe"
-nickname: "John"
+name: "約翰·多伊"
+nickname: "約翰"
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Hi, I am"
+greeting: "你好，我是"
 image: "images/author/john.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -14,8 +14,8 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a Developer
-  - I am a Devops
-  - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - 我是一名開發者
+  - 我是一名 DevOps 工程師
+  - 我熱愛伺服器
+  - 我參與開源專案
+  - 我喜歡從事有趣的專案

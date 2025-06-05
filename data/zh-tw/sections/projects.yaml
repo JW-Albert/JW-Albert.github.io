@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: 專案
   id: projects
   enable: true
   weight: 5
@@ -10,56 +10,56 @@ section:
 
 # filter buttons
 buttons:
-- name: All
+- name: 全部
   filter: "all"
-- name: Professional
+- name: 專業
   filter: "professional"
-- name: Academic
+- name: 學術
   filter: "academic"
-- name: Hobby
+- name: 興趣
   filter: "hobby"
 
 # your projects
 projects:
 - name: Kubernetes
   logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
+  role: 貢獻者
+  timeline: "2018年3月 - 至今"
   repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
+  summary: 生產級容器調度和管理。
   tags: ["professional", "kubernetes", "cloud"]
 
 - name: Tensorflow
   logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
+  role: 開發者
+  timeline: "2018年6月 - 至今"
   repo: https://github.com/tensorflow/tensorflow
   #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
+  summary: 面向所有人的開源機器學習框架。
   tags: ["professional", "machine-learning"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
+- name: 學術論文範例
+  role: 團隊領導
+  timeline: "2017年1月 - 2017年11月"
   url: "https://www.example.com"
   summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
   tags: ["academic","iot"]
 
 - name: Nocode
   logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
+  role: 無
+  timeline: "2019年10月 - 2019年12月"
   repo: https://github.com/kelseyhightower/nocode
   #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+  summary: 編寫安全和可靠應用程式的最佳方式。不寫任何代碼；不部署到任何地方。
   tags: ["hobby", "fun"]
 
 - name: Toha
   logo: /images/sections/projects/toha.png
   image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
+  role: 擁有者
+  timeline: "2019年6月 - 至今"
   repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
+  summary: 一個用於個人作品集展示的 Hugo 主題。
   tags: ["hobby","hugo","theme","professional"]

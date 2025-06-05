@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Education
+  name: 教育
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
@@ -10,17 +10,17 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: 量子密碼學博士
   icon: fa-microscope
   timeframe: 2016-2020
   institution:
-    name: ABC University of Technology
+    name: ABC 科技大學
     url: "#"
     logo: /images/sections/education/tech_college.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
+  grade:
+    scale: 平均績點
     achieved: 3.6
     outOf: 4
   publications: #(optional)
@@ -30,34 +30,33 @@ degrees:
     url: "#"
   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
     url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: 計算機科學與工程學士
   icon: fa-graduation-cap
   timeframe: 2012-2016
   institution:
-    name: University of XYZ
+    name: XYZ 大學
     url: "#"
     logo: /images/sections/education/university.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
+  grade:
+    scale: 平均績點
     achieved: 3.5
     outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  takenCourses:
     showGrades: true
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
+    - name: 資料結構與演算法
       achieved: 3.75
       outOf: 4
-    - name: Network Security
+    - name: 網路安全
       achieved: 3.80
       outOf: 4
-    - name: Operating System
+    - name: 作業系統
       achieved: 3.5
       outOf: 4
-    - name: Artificial Intelligent
+    - name: 人工智慧
       achieved: 3.75
       outOf: 4
   publications: #(optional)
@@ -71,21 +70,21 @@ degrees:
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
   customSections: #(optional)
-    - name: Thesis
+    - name: 論文
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
+    - name: 指導教授
       content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
+- name: 高中文憑
   icon: fa-university
   timeframe: 2010-2012
   institution:
-    name: MST College of Science
+    name: MST 科學學院
     url: "#"
     logo: /images/sections/education/science_college.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
+  grade:
+    scale: 平均績點
     achieved: 5
     outOf: 5
   extracurricularActivities: #(optional)
@@ -93,12 +92,12 @@ degrees:
   - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
   - Duis sed massa feugiat, ornare justo et, aliquam est.
   - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
+- name: 國中畢業證書
   icon: fa-school
   timeframe: 2005-2010
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
+    name: JK 科學學校
+  grade:
+    scale: 平均績點
     achieved: 4.5
     outOf: 5
