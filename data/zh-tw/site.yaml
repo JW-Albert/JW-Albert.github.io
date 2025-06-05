@@ -1,5 +1,5 @@
 # Copyright Notice
-copyright: © 2020 版權所有。
+copyright: © 2025 版權所有。
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: "本主題採用 MIT 授權。因此，您可以用於非商業、商業或私人用途。
@@ -7,13 +7,13 @@ disclaimer: "本主題採用 MIT 授權。因此，您可以用於非商業、�
 但是，主題作者不提供任何保證，也不對主題的任何問題承擔責任。"
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: 約翰·多伊的作品集和個人部落格。
+description: 阿爾伯特的作品集和個人部落格。
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
 - name: 文件
-  url: https://toha-guides.netlify.app/posts/
+  url: https://www.jw-albert.tw/文章/
   # specify whether to hide the menu item from top navbar or not.
   hideFromNavbar: false
   # specify whether to show the menu item in footer or not.
@@ -22,8 +22,8 @@ customMenus:
 
 # Specify OpenGraph Headers
 openGraph:
-  title: 約翰的部落格
+  title: 阿爾伯特的部落格
   type: website
-  description: 約翰·多伊的作品集和個人部落格。
+  description: 阿爾伯特的作品集和個人部落格。
   image: images/author/john.png
-  url: https://hugo-toha.github.io
+  url: https://JW-Albert.github.io

@@ -11,10 +11,10 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: 範例公司
-    url: "https://www.example.com"
-    location: 達卡分公司
-    logo: /images/sections/experiences/company1.jpg
+    name: 機智雲股份有限公司
+    url: "https://imcloud.co/"
+    location: 台灣台中
+    logo: /images/sections/experiences/imcloud.webp
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview

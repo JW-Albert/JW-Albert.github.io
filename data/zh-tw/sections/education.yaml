@@ -30,13 +30,13 @@ degrees:
     url: "#"
   - title: Nullam vitae orci tincidunt purus viverra pulvinar.
     url: "#"
-- name: 計算機科學與工程學士
+- name: 資訊工程學士
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2023-2027
   institution:
-    name: XYZ 大學
-    url: "#"
-    logo: /images/sections/education/university.jpg
+    name: 逢甲大學
+    url: "https://www.fcu.edu.tw/"
+    logo: /images/sections/education/FCU-logo-color.jpg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
   grade:

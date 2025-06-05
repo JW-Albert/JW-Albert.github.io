@@ -11,8 +11,8 @@ section:
 designation: 軟體工程師
 # your company information
 company:
-  name: 範例公司
-  url: "https://www.example.com"
+  name: 機智雲股份有限公司
+  url: "https://imcloud.co/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
@@ -26,36 +26,15 @@ summary: '我是一位充滿熱情的軟體工程師，擁有多年工作經驗�
 socialLinks:
 - name: 電子郵件
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "albert@mail.jw-albert.tw"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://www.github.com/JW-Albert"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+  url: "https://www.linkedin.com/in/jw-albert/"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
