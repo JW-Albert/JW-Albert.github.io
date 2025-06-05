@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>文章列表 on 強的部落格</title><link>https://hugo-toha.github.io/zh-tw/posts/</link><description>Recent content in 文章列表 on 強的部落格</description><generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Mon, 08 Jun 2020 08:06:25 +0600</lastBuildDate><atom:link href="https://hugo-toha.github.io/zh-tw/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown 範例</title><link>https://hugo-toha.github.io/zh-tw/posts/markdown-sample/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/zh-tw/posts/markdown-sample/</guid><description>&lt;p>這篇範例文章用於測試以下功能：&lt;/p>
+&lt;ul>
+&lt;li>不同的文章作者。&lt;/li>
+&lt;li>目錄。&lt;/li>
+&lt;li>Markdown 內容渲染。&lt;/li>
+&lt;li>數學公式渲染。&lt;/li>
+&lt;li>表情符號渲染。&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h1 id="markdown-語法渲染">Markdown 語法渲染&lt;/h1>
+&lt;h2 id="標題">標題&lt;/h2>
+&lt;p>以下 HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> 元素代表六個層級的標題。&lt;code>&amp;lt;h1&amp;gt;&lt;/code> 是最高層級，而 &lt;code>&amp;lt;h6&amp;gt;&lt;/code> 是最低層級。&lt;/p>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2">H2&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;h5 id="h5">H5&lt;/h5>
+&lt;h6 id="h6">H6&lt;/h6>
+&lt;h2 id="段落">段落&lt;/h2>
+&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p></description></item><item><title>介紹</title><link>https://hugo-toha.github.io/zh-tw/posts/introduction/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/zh-tw/posts/introduction/</guid><description>&lt;p>歡迎！這是一篇介紹索引文章。這篇文章用於測試以下功能：&lt;/p>
+&lt;ul>
+&lt;li>英雄圖片與文章位於相同路徑。&lt;/li>
+&lt;li>這篇文章應該顯示在側邊欄的最前面。&lt;/li>
+&lt;li>文章作者將顯示在 &lt;code>author.yaml&lt;/code> 檔案中指定的作者。&lt;/li>
+&lt;/ul></description></item><item><title>短代碼範例</title><link>https://hugo-toha.github.io/zh-tw/posts/shortcodes/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/zh-tw/posts/shortcodes/</guid><description>&lt;p>這篇範例文章用於測試以下功能：&lt;/p>
+&lt;ul>
+&lt;li>預設英雄圖片。&lt;/li>
+&lt;li>各種短代碼。&lt;/li>
+&lt;/ul>
+&lt;h2 id="提示框">提示框&lt;/h2>
+&lt;p>這個主題包含以下提示框：&lt;/p>
+&lt;div class="alert success">
+&lt;span>&lt;i data-feather="check-circle">&lt;/i>&lt;/span>
+&lt;span>&lt;strong>這是使用 &lt;code>type=&amp;quot;success&amp;quot;&lt;/code> 的範例提示框。&lt;/strong>&lt;/span>
+&lt;/div>
+&lt;div class="alert danger">
+&lt;span>&lt;i data-feather="alert-octagon">&lt;/i>&lt;/span>
+&lt;span>&lt;strong>這是使用 &lt;code>type=&amp;quot;danger&amp;quot;&lt;/code> 的範例提示框。&lt;/strong>&lt;/span>
+&lt;/div>
+&lt;div class="alert warning">
+&lt;span>&lt;i data-feather="alert-triangle">&lt;/i>&lt;/span>
+&lt;span>&lt;strong>這是使用 &lt;code>type=&amp;quot;warning&amp;quot;&lt;/code> 的範例提示框。&lt;/strong>&lt;/span>
+&lt;/div>
+&lt;div class="alert info">
+&lt;span>&lt;i data-feather="info">&lt;/i>&lt;/span>
+&lt;span>&lt;strong>這是使用 &lt;code>type=&amp;quot;info&amp;quot;&lt;/code> 的範例提示框。&lt;/strong>&lt;/span>
+&lt;/div>
+&lt;div class="alert dark">
+&lt;span>&lt;i data-feather="alert-circle">&lt;/i>&lt;/span>
+&lt;span>&lt;strong>這是使用 &lt;code>type=&amp;quot;dark&amp;quot;&lt;/code> 的範例提示框。&lt;/strong>&lt;/span>
+&lt;/div>
+&lt;div class="alert primary">
+&lt;span>&lt;i data-feather="alert-circle">&lt;/i>&lt;/span>
+&lt;span>&lt;strong>這是使用 &lt;code>type=&amp;quot;primary&amp;quot;&lt;/code> 的範例提示框。&lt;/strong>&lt;/span>
+&lt;/div>
+&lt;div class="alert secondary">
+&lt;span>&lt;i data-feather="alert-circle">&lt;/i>&lt;/span>
+&lt;span>&lt;strong>這是使用 &lt;code>type=&amp;quot;secondary&amp;quot;&lt;/code> 的範例提示框。&lt;/strong>&lt;/span>
+&lt;/div>
+&lt;h2 id="圖片">圖片&lt;/h2>
+&lt;h4 id="不帶任何屬性的圖片範例">不帶任何屬性的圖片範例。&lt;/h4>
+&lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
+alt="A boat at the sea"
+>
+&lt;div style="margin-top: 3rem;">&lt;/div>
+&lt;h4 id="帶有-height-和-width-屬性的圖片範例">帶有 &lt;code>height&lt;/code> 和 &lt;code>width&lt;/code> 屬性的圖片範例。&lt;/h4>
+&lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
+alt="A boat at the sea"
+width="600"
+height="400"
+>
+&lt;div style="margin-top: 3rem;">&lt;/div>
+&lt;h4 id="帶有-height-和-width-屬性且置中的圖片範例">帶有 &lt;code>height&lt;/code> 和 &lt;code>width&lt;/code> 屬性且置中的圖片範例。&lt;/h4>
+&lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
+alt="A boat at the sea"
+width="600"
+height="400"
+class="center"
+>
+&lt;div style="margin-top: 3rem;">&lt;/div>
+&lt;h4 id="帶有-float-屬性的圖片範例">帶有 &lt;code>float&lt;/code> 屬性的圖片範例。&lt;/h4>
+&lt;img src="https://hugo-toha.github.io/posts/shortcodes/boat.jpg"
+alt="A boat at the sea"
+width="500"
+height="200"
+style="float: right;"
+>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies. Praesent tellus risus, eleifend vel efficitur ac, venenatis sit amet sem. Ut ut egestas erat. Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat. Suspendisse nec ipsum eu erat finibus dictum. Morbi volutpat nulla purus, vel maximus ex molestie id. Nullam posuere est urna, at fringilla eros venenatis quis.&lt;/p></description></item><item><title>豐富內容</title><link>https://hugo-toha.github.io/zh-tw/posts/category/sub-category/rich-content/</link><pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate><guid>https://hugo-toha.github.io/zh-tw/posts/category/sub-category/rich-content/</guid><description>&lt;p>這篇範例文章用於測試以下功能：&lt;/p>
+&lt;ul>
+&lt;li>查看側邊欄中類別和子類別的層級結構&lt;/li>
+&lt;li>文章中的英雄圖片將存放在 &lt;code>images&lt;/code> 資料夾中&lt;/li>
+&lt;li>各種媒體的渲染，如圖片、推文、YouTube 影片、Vimeo 影片等&lt;/li>
+&lt;/ul>
+&lt;h3 id="圖片範例">圖片範例&lt;/h3>
+&lt;img src="https://hugo-toha.github.io/posts/category/sub-category/rich-content/images/forest.jpg"
+alt="Forest"
+class="center"
+>
+&lt;div style="margin-top: rem;">&lt;/div>
+&lt;h3 id="推文範例">推文範例&lt;/h3>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Owl bet you&amp;#39;ll lose this staring contest 🦉 &lt;a href="https://t.co/eJh4f2zncC">pic.twitter.com/eJh4f2zncC&lt;/a>&lt;/p>&amp;mdash; San Diego Zoo Wildlife Alliance (@sandiegozoo) &lt;a href="https://twitter.com/sandiegozoo/status/1453110110599868418?ref_src=twsrc%5Etfw">October 26, 2021&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;div style="margin-top: rem;">&lt;/div>
+&lt;h3 id="youtube-影片範例">YouTube 影片範例&lt;/h3>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+&lt;div style="margin-top: rem;">&lt;/div>
+&lt;h3 id="vimeo-影片範例">Vimeo 影片範例&lt;/h3>
+&lt;div
+style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe
+src="https://player.vimeo.com/video/48912912?dnt=0"
+style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="fullscreen">
+&lt;/iframe>
+&lt;/div></description></item></channel></rss>
