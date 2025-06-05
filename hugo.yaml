@@ -27,7 +27,7 @@ languages:
     weight: 1
   zh-tw:
     languageCode: zh-tw
-    languageName: 繁體中文
+    languageName: 🇹🇼 繁體中文
     title: "Albert 的部落格"
     weight: 2
 # default language for the content
