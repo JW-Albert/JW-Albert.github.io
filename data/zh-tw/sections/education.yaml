@@ -36,7 +36,7 @@ degrees:
   institution:
     name: 逢甲大學
     url: "https://www.fcu.edu.tw/"
-    logo: /images/sections/education/FCU-logo-color.jpg
+    logo: /images/sections/education/FCU-logo-color.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
   grade:

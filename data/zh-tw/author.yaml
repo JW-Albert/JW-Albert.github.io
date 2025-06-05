@@ -1,6 +1,6 @@
 # some information about you
 name: "阿爾伯特"
-nickname: "Albert"
+nickname: "阿爾伯特"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "你好，我是"
 image: "images/author/john.png"
