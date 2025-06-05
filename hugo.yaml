@@ -25,10 +25,10 @@ languages:
     languageName: English
     title: "John's Blog"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+  zh-tw:
+    languageCode: zh-tw
+    languageName: 繁體中文
+    title: "強的部落格"
     weight: 2
 # default language for the content
 defaultContentLanguage: en
@@ -70,7 +70,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/JW-Albert/JW-Albert.github.io
   # Default branch of your Git repo
   gitBranch: main
 
