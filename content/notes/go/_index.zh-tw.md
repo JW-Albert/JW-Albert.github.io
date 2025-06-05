@@ -1,5 +1,5 @@
 ---
-title: Go এর নোট সমূহ
+title: Go 筆記
 menu:
   notes:
     name: Go
@@ -7,4 +7,4 @@ menu:
     weight: 10
 ---
 
-# Go Notes
+# Go 筆記

@@ -1,9 +1,9 @@
 ---
-title: অ্যাডভান্সড
+title: 進階
 weight: 20
 menu:
   notes:
-    name: অ্যাডভান্সড
+    name: 進階
     identifier: notes-go-advanced
     parent: notes-go
     weight: 20

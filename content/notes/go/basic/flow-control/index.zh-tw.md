@@ -1,16 +1,16 @@
 ---
-title: ফ্লো কন্ট্রোল
+title: 流程控制
 weight: 30
 menu:
   notes:
-    name: ফ্লো কন্ট্রোল
+    name: 流程控制
     identifier: notes-go-basics-flow-control
     parent: notes-go-basics
     weight: 30
 ---
 
 <!-- Condition -->
-{{< note title="Condition">}}
+{{< note title="條件">}}
 
 ```go
 if day == "sunday" || day == "saturday" {
@@ -31,7 +31,7 @@ if _, err := doThing(); err != nil {
 
 <!-- Switch -->
 
-{{< note title="Switch" >}}
+{{< note title="Switch 語句" >}}
 
 ```go
 switch day {
@@ -51,7 +51,7 @@ switch day {
 
 <!-- Loop -->
 
-{{< note title="Loop" >}}
+{{< note title="迴圈" >}}
 
 ```go
 for count := 0; count <= 10; count++ {

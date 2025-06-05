@@ -1,10 +1,10 @@
 ---
-title: "Markdown এর নমুনা"
+title: "Markdown 範例"
 date: 2020-06-08T08:06:25+06:00
-description: Markdown rendering samples
+description: Markdown 渲染範例
 menu:
   sidebar:
-    name: Markdown এর নমুনা
+    name: Markdown 範例
     identifier: markdown
     weight: 30
 author:
@@ -13,20 +13,20 @@ author:
 math: true
 ---
 
-এই নমুনা পোস্টটি এই বিষয়গুলো পরীক্ষা করার জন্যে করা হয়েছেঃ
+這篇範例文章用於測試以下功能：
 
-- একজন ভিন্ন পোস্ট লেখক।
-- সূচীপত্র।
-- Markdown কন্টেন্ট রেন্ডারিং।
-- গণিত রেন্ডারিং।
-- ইমোজি রেন্ডারিং।
+- 不同的文章作者。
+- 目錄。
+- Markdown 內容渲染。
+- 數學公式渲染。
+- 表情符號渲染。
 
 ---
-# Markdown Syntax Rendering
+# Markdown 語法渲染
 
-## Headings
+## 標題
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+以下 HTML `<h1>`—`<h6>` 元素代表六個層級的標題。`<h1>` 是最高層級，而 `<h6>` 是最低層級。
 
 # H1
 ## H2
@@ -35,47 +35,47 @@ The following HTML `<h1>`—`<h6>` elements represent six levels of section head
 ##### H5
 ###### H6
 
-## Paragraph
+## 段落
 
 Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-## Blockquotes
+## 引用區塊
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+引用區塊元素表示從其他來源引用的內容，可以選擇性地包含引用來源（必須在 `footer` 或 `cite` 元素中），也可以選擇性地包含註釋和縮寫等內聯更改。
 
-#### Blockquote without attribution
+#### 無來源的引用
 
 > Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+> **注意** 你可以在引用區塊中使用 *Markdown 語法*。
 
-#### Blockquote with attribution
+#### 有來源的引用
 
 > Don't communicate by sharing memory, share memory by communicating.</p>
 > — <cite>Rob Pike[^1]</cite>
 
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^1]: 上述引用摘自 Rob Pike 在 2015 年 11 月 18 日 Gopherfest 期間的[演講](https://www.youtube.com/watch?v=PAAkCSZUG1c)。
 
-## Tables
+## 表格
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+表格不是核心 Markdown 規範的一部分，但 Hugo 原生支援它們。
 
    | Name  | Age |
    | ----- | --- |
    | Bob   | 27  |
    | Alice | 23  |
 
-#### Inline Markdown within tables
+#### 表格中的內聯 Markdown
 
 | Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
 | ------------------------ | -------------------------- | ----------------------------------- | ------ |
 | *italics*                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
 
-## Code Blocks
+## 程式碼區塊
 
-#### Code block with backticks
+#### 使用反引號的程式碼區塊
 
 ```
 html
@@ -90,7 +90,7 @@ html
 </body>
 </html>
 ```
-#### Code block indented with four spaces
+#### 使用四個空格縮排的程式碼區塊
 
     <!DOCTYPE html>
     <html lang="en">
@@ -103,7 +103,7 @@ html
     </body>
     </html>
 
-#### Code block with Hugo's internal highlight shortcode
+#### 使用 Hugo 內部高亮短代碼的程式碼區塊
 {{< highlight html >}}
 <!DOCTYPE html>
 <html lang="en">
@@ -117,60 +117,60 @@ html
 </html>
 {{< /highlight >}}
 
-## List Types
+## 列表類型
 
-#### Ordered List
+#### 有序列表
 
-1. First item
-2. Second item
-3. Third item
+1. 第一項
+2. 第二項
+3. 第三項
 
-#### Unordered List
+#### 無序列表
 
-* List item
-* Another item
-* And another item
+* 列表項目
+* 另一個項目
+* 再一個項目
 
-#### Nested list
+#### 巢狀列表
 
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
+* 水果
+  * 蘋果
+  * 橘子
+  * 香蕉
+* 乳製品
+  * 牛奶
+  * 起司
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## 其他元素 — abbr, sub, sup, kbd, mark
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr> 是一種點陣圖影像格式。
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+按下 <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> 結束工作階段。
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+大多數 <mark>蠑螈</mark> 都是夜行性的，以昆蟲、蠕蟲和其他小型生物為食。
 
 ---
 
-## Math Rendering
+## 數學公式渲染
 
 {{< math.inline >}}
 <p>
-Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
+內聯數學：\(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\)
 </p>
 {{</ math.inline >}}
 
-Block math:
+區塊數學：
 $$
  \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
 $$
 
 ---
 
-## Emoji Rendering
+## 表情符號渲染
 
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 <br>

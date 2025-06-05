@@ -1,16 +1,16 @@
 ---
-title: ব্যাশ ভেরিয়েবল
+title: Bash 變數
 weight: 210
 menu:
   notes:
-    name: ভেরিয়েবল
+    name: 變數
     identifier: notes-bash-variables
     parent: notes-bash
     weight: 10
 ---
 
 <!-- Variable -->
-{{< note title="Variable" >}}
+{{< note title="變數" >}}
 
 ```bash
 NAME="John"
@@ -22,7 +22,7 @@ echo "${NAME}
 {{< /note >}}
 
 <!-- Condition -->
-{{< note title="Condition" >}}
+{{< note title="條件" >}}
 
 ```bash
 if [[ -z "$string" ]]; then

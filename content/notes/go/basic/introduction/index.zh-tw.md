@@ -1,16 +1,16 @@
 ---
-title: Go পরিচিতি
+title: Go 簡介
 weight: 10
 menu:
   notes:
-    name: পরিচিতি
+    name: 簡介
     identifier: notes-go-basics-intro
     parent: notes-go-basics
     weight: 10
 ---
 <!-- A Sample Program -->
 {{< note title="Hello World">}}
-A sample go program is show here.
+以下是一個簡單的 Go 程式範例。
   
 ```go
 package main
@@ -27,7 +27,7 @@ func greetMe(name string) string {
 }
 ```
 
-Run the program as below:
+執行程式的方式如下：
 
 ```bash
 $ go run hello.go
@@ -36,14 +36,14 @@ $ go run hello.go
 
 <!-- Declaring Variables -->
 
-{{< note title="Variables" >}}
-**Normal Declaration:**
+{{< note title="變數" >}}
+**一般宣告方式：**
 ```go
 var msg string
 msg = "Hello"
 ```
 
-**Shortcut:**
+**簡短宣告方式：**
 ```go
 msg := "Hello"
 ```
@@ -52,7 +52,7 @@ msg := "Hello"
 
 <!-- Declaring Constants -->
 
-{{< note title="Constants" >}}
+{{< note title="常數" >}}
 ```go
 const Phi = 1.618
 ```

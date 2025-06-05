@@ -1,20 +1,20 @@
 ---
-title: বেসিক টাইপ সমূহ 
+title: 基本型別
 weight: 20
 menu:
   notes:
-    name: বেসিক টাইপ সমূহ 
+    name: 基本型別
     identifier: notes-go-basics-types
     parent: notes-go-basics
     weight: 20
 ---
 <!-- String Type -->
-{{< note title="Strings" >}}
+{{< note title="字串" >}}
 ```go
 str := "Hello"
 ```
 
-Multiline string
+多行字串
 ```go
 str := `Multiline
 string`
@@ -22,8 +22,8 @@ string`
 {{< /note >}}
 
 <!-- Number Types -->
-{{< note title="Numbers" >}}
-Typical types
+{{< note title="數字" >}}
+常用型別
 
 ```go
 num := 3          // int
@@ -32,7 +32,7 @@ num := 3 + 4i     // complex128
 num := byte('a')  // byte (alias for uint8)
 ```
 
-Other Types
+其他型別
 
 ```go
 var u uint = 7        // uint (unsigned)
@@ -43,7 +43,7 @@ var p float32 = 22.7  // 32-bit float
 
 <!----------- Arrays  ------>
 
-{{< note title="Arrays" >}}
+{{< note title="陣列" >}}
 
 ```go
 // var numbers [5]int
@@ -54,7 +54,7 @@ numbers := [...]int{0, 0, 0, 0, 0}
 
 <!-- Pointers -->
 
-{{< note size="medium" title="Pointers">}}
+{{< note size="medium" title="指標">}}
 
 ```go
 func main () {
@@ -73,13 +73,13 @@ a := new(int)
 *a = 234
 ```
 
-Pointers point to a memory location of a variable. Go is fully garbage-collected.
+指標指向變數的記憶體位置。Go 具有完整的垃圾回收機制。
 
 {{< /note >}}
 
 <!-- Type Conversion -->
 
-{{< note title="Type Conversion" >}}
+{{< note title="型別轉換" >}}
 
 ```go
 i := 2
@@ -91,7 +91,7 @@ u := uint(i)
 
 <!-- Slice -->
 
-{{< note title="Slice" >}}
+{{< note title="切片" >}}
 
 ```go
 slice := []int{2, 3, 4}

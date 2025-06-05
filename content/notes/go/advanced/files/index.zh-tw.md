@@ -1,16 +1,16 @@
 ---
-title: ফাইল ম্যানিপুলেশন
+title: 檔案操作
 weight: 40
 menu:
   notes:
-    name: ফাইল ম্যানিপুলেশন
+    name: 檔案操作
     identifier: notes-go-advanced-files
     parent: notes-go-advanced
     weight: 10
 ---
 
 <!-- Condition -->
-{{< note title="Condition">}}
+{{< note title="條件">}}
 
 ```go
 if day == "sunday" || day == "saturday" {
