@@ -30,3 +30,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          keep_files: true        # 保留現有文件
+          force_orphan: false     # 不強制刪除所有文件
